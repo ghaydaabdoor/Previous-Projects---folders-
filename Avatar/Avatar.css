@@ -1,0 +1,86 @@
+*{
+	font-family:Tahoma;
+	padding:0;
+	margin:0;
+}
+body{
+	background-image:linear-gradient(to right,#19194b,black);
+	height:100vh;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.container{
+	width:90%;
+	height:640px;
+	background-image:linear-gradient(to right,#01022de5 30%,#00000088),
+	url(avatar.webp);
+	background-size:cover;
+	background-position:center;
+	background-attachment:fixed;
+}
+.container:hover{
+	background-image:linear-gradient(to right,#01022de5 30%,transparent),
+	url(avatar.webp);
+}
+nav{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	padding:20px;
+}
+.logo{
+	text-transform:uppercase;
+	color:white;
+	font-weight:700;
+	font-size:30px;
+}
+ul{
+	width:60%;
+	list-style-type:none;
+	display:flex;
+	justify-content:space-evenly;
+}
+a{
+	text-decoration:none;
+}
+ul li a{
+	color:white;
+}
+ul li a:hover{
+	text-decoration:underline;
+}
+main{
+	color:white;
+	height:100%;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	padding:30px;
+	width:50%;
+	position:relative;
+	top:-40px;
+}
+main h1{
+	text-transform:uppercase;
+	font-size:100px;
+}
+main p{
+	padding:20px 10px;
+	width:370px;
+	letter-spacing:3px;
+}
+button{
+	width:150px;
+	font-size:30px;
+	margin-left:10px;
+	font-family:tahoma;
+	padding:5px 10px;
+	border-radius:15px;
+}
+button:hover{
+	border:solid white 2px;
+	background-color:transparent;
+	color:white;
+	cursor:pointer;
+}

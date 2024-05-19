@@ -1,0 +1,17 @@
+#bigimg{
+	width:490px;
+	height:380px;
+	margin:10px 0px;
+}
+#pic1, #pic2, #pic3, #pic4, #pic11, #pic22, #pic33, #pic44{
+	width:110px;
+	height:90px;
+}
+#pic1:hover, #pic2:hover, #pic3:hover, #pic4:hover, #pic11:hover, #pic22:hover, #pic33:hover, #pic44:hover{
+	border:green solid 3px;
+	cursor:pointer;
+}
+.smallcontainer{
+	display:flex;
+	gap:15px;
+}
